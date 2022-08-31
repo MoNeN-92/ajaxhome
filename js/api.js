@@ -10,9 +10,11 @@ $(".loading").removeClass("d-none");
             dataType: "json",
             success: function (response) {
                 response.forEach(Data => {
-                    let show = `${Data.feedbackHome}`;
+                    let show = `${Data.feedbackHome}`
+
                     $(".loading").addClass("d-none");
                     $('#hom').append(show);
+                    
                 });
 
             }
