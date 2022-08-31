@@ -1,0 +1,21 @@
+.target {
+    border-radius: 50px;
+}
+.target:hover{
+    box-shadow: 3px 3px 3px 3px;
+}
+.aj {
+    text-align: center;
+    width: 30%;
+  
+}
+.att {
+    text-align: center;
+    width: 30%;
+}
+.done {
+    display: block;
+}
+.undone{
+    display: none;
+}
